@@ -1,10 +1,6 @@
 import PropTypes from "prop-types";
 
-const Notification = message => (
-  <>
-    <p>{message}</p>
-  </>
-);
+const Notification = ({ message }) => <p>{message}</p>;
 
 Notification.defaultProps = {
   title: "No feedback given"
